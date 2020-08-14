@@ -1,0 +1,124 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar.scrolled {
+    background-color: #fff;
+    box-shadow: 2px 2px 2px rgba(192, 192, 192, 0.4);
+}
+
+.putih {
+    background-color: white;
+}
+
+.project {
+    opacity: 0.9;
+
+}
+
+.project:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#mainNavbar a,
+.head-text p,
+.about h2,
+.about p {
+    color: #783cb8;
+}
+
+.head-text h2 {
+    padding-top: 40px;
+    font-size: 42px;
+    color: #653499;
+}
+
+.navbar-nav .nav-item {
+    padding-right: 20px;
+    text-align: right;
+}
+
+.active {
+    font-weight: 500;
+}
+
+.jumbotron {
+    margin-top: 30px;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+footer {
+    padding: 0;
+    margin: 0;
+    background-color: #783cb8;
+    color: #fff;
+    min-height: 60px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+section {
+    margin-bottom: 150px;
+}
+
+.card {
+    box-shadow: 1px 1px 10px rgba(192, 192, 192, 0.6);
+}
+
+#info ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+#info img {
+    width: 25px;
+    height: 25px;
+}
+
+
+/* Responsive */
+
+@media(max-width: 560px) {
+
+    #content img,
+    .banner img {
+        width: 100%;
+    }
+
+    #liga-premier h1 {
+        width: 3.33%;
+    }
+
+    h2,
+    p {
+        text-align: center;
+    }
+
+    #content p {
+        font-size: 14px;
+    }
+
+    .head-text a {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    .about ul {
+        justify-content: center;
+    }
+
+    .about img {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    #content h1 {
+        width: 60%;
+    }
+
+    .jumbotron {
+        padding-bottom: px;
+    }
+}
