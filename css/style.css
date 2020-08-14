@@ -7,6 +7,7 @@
     box-shadow: 2px 2px 2px rgba(192, 192, 192, 0.4);
 }
 
+
 .putih {
     background-color: white;
 }
@@ -31,7 +32,7 @@
 .head-text h2 {
     padding-top: 40px;
     font-size: 42px;
-    color: #653499;
+    color: #7e3fc2;
 }
 
 .navbar-nav .nav-item {
@@ -96,13 +97,23 @@ section {
         text-align: center;
     }
 
-    #content p {
-        font-size: 14px;
+    #content p,
+    .about p {
+        font-size: 16px;
+    }
+
+    .head-text {
+        margin-top: 5px !important;
+        margin-bottom: 30px;
+    }
+
+    .head-text h2 {
+        font-size: 45px;
     }
 
     .head-text a {
-        width: 40%;
-        margin-left: 30%;
+        width: 60%;
+        margin-left: 20%;
     }
 
     .about ul {
@@ -110,8 +121,12 @@ section {
     }
 
     .about img {
-        width: 60%;
-        margin-left: 20%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .about h2 {
+        font-size: 27px;
     }
 
     #content h1 {
