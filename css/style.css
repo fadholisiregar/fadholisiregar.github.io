@@ -25,7 +25,8 @@
 #mainNavbar a,
 .head-text p,
 .about h2,
-.about p {
+.about p,
+h1 {
     color: #783cb8;
 }
 
@@ -130,7 +131,7 @@ section {
     }
 
     #content h1 {
-        width: 60%;
+        width: 80%;
     }
 
     .jumbotron {
